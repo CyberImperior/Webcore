@@ -1,0 +1,58 @@
+@media (min-width: 768px) {
+    .header-container .header-container__logo--divide-line1  {
+        display: block;
+    }
+
+    .header-container .header-container__button--call-icon {
+        display: block;
+    }
+    
+    .header-container .header-container__button--chat-icon {
+        display: block;
+    }
+    
+    .header-container .header-container__button--profile-icon {
+        display: block;
+    }
+    .nav-container .nav-container__nav {
+        margin-bottom: 40px;
+    }
+    .nav-container .nav-container__heading {
+        margin-left: 20px;
+        margin-bottom: 32px;
+    }
+
+ 
+    .nav-container .nav-container__button  {
+        margin-right: 0px;
+    
+    }
+
+    .main-container .main-container__main-text {
+        margin-top: 0;
+        margin-left: 24px;
+        margin-right: 48px;
+        margin-bottom: 10px;
+    }
+
+    .main-container .main-conten-wrapper--high-permisson {
+        display: flex;
+
+    }
+
+    .main-container .main-container__img-content {
+        width:auto;
+        justify-content: space-between;
+    }
+    
+    .main-container .main-container__img-content {
+        border-radius: 5px;
+        margin-right: 40px;
+        max-width: 360px;
+    }
+
+
+
+
+}
+

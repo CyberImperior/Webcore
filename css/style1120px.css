@@ -1,0 +1,102 @@
+@media (min-width: 1120px) {
+    
+    .header-container {
+        float: right;     
+        height: 0;
+        margin-top: 62px;
+        background-color: #F8F8F8;
+    }
+    
+    .header-container .header-container__label {
+        display: inline;
+    }
+    .header-container .header-container__button--repair-icon {
+        margin-right: 32px;
+        margin-left: 9px;
+    
+    }
+    
+    .header-container .header-container__button--checkstatus-icon {
+        
+        margin-right: 32px;
+        margin-left: 9px;
+    }
+    
+    .header-container .header-container__button--burger-icon {
+        display: none;
+
+    
+    }
+    
+    .header-container .header-container__logo--divide-line1 {
+        display: none;
+
+    }
+    
+    .header-container .header-container__logo--cps-logo {
+        display: none;
+  
+    }
+    
+    .header-container .header-container__button--call-icon {
+        display: none;
+
+    }
+    
+    .header-container .header-container__button--chat-icon {
+        display: none;
+
+    }
+    
+    .header-container .header-container__button--profile-icon {
+        display: none;
+
+    }
+    
+    .header-container .header-container__logo--divede-line2 {
+        display: none;
+
+    }
+    
+    .nav-container .nav-container__heading {
+        margin-top: 42px;
+        margin-bottom: 8.37px;
+    }
+
+    .nav-container .nav-container__docorative-highlight {
+        margin-top: 42px;
+       
+    }
+
+    .nav-container .nav-container__list {
+        margin-left: 32px;
+        overflow: hidden;
+        flex-wrap: wrap;
+
+    }
+    
+
+    .nav-container .nav-container__button  {
+        margin-right: 0;
+    
+    }
+    .main-container .main-container__img-content {
+        border-radius: 5px;
+        margin-right: 28.65px;
+        max-width: 100%;
+    }
+    .nav-container .nav-container__nav {
+        margin-bottom: 19.22px;
+    }
+
+    .main-container .main-container__main-text {
+        margin-top: 0;
+        margin-left: 34px;
+        margin-right: 36px;
+        margin-bottom: 13.78px;
+    }
+
+    .main-container .main-container__flex-container-for-label-and-decorative {
+        margin-left: 32px;
+    }
+}

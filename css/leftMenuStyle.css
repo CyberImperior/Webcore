@@ -1,131 +1,118 @@
-html, body {
-    font-family: "TT Lakes";
-
+html,
+body {
+  font-family: 'TT Lakes';
 }
 .left-menu {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 320px;
-    box-shadow: -2px 0 4px rgba(69, 79, 126, 0.02), 16px 0 52px rgba(14, 24, 80, 0.2);
-    min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 320px;
+  box-shadow: -2px 0 4px rgba(69, 79, 126, 0.02),
+    16px 0 52px rgba(14, 24, 80, 0.2);
+  min-height: 100vh;
 }
 
 .header-left-menu-container {
-    display: flex;
-    height: 116px;
-    justify-content: flex-start;
+  display: flex;
+  height: 116px;
+  justify-content: flex-start;
 }
 .header-left-menu-container__btn {
-    width: 40px;
-    height: 40px;
+  width: 40px;
+  height: 40px;
 }
 .header-left-menu-container__btn--type--cancel {
-    background-image: url("../src/img/decorative/icon/cancel.svg");
-    margin-top: 23px;
-    margin-left: 24px;
-    margin-right: 17px;
+  background-image: url('../src/img/decorative/icon/cancel.svg');
+  margin-top: 23px;
+  margin-left: 24px;
+  margin-right: 17px;
 }
 .header-left-menu-container__btn--type--logo {
-    width: 97px;
-    height: 51px;
-    background-image: url("../src/img/decorative/icon/group.svg");
-    margin-top: 19px;
-
+  width: 97px;
+  height: 51px;
+  background-image: url('../src/img/decorative/icon/group.svg');
+  margin-top: 19px;
 }
 .header-left-menu-container__btn--type--search {
-
-    background-image: url("../src/img/decorative/icon/search.svg");
-    margin-left: 79px;
-    margin-top: 23px;
-
+  background-image: url('../src/img/decorative/icon/search.svg');
+  margin-left: 79px;
+  margin-top: 23px;
 }
-
 
 .left-menu-navigation {
-    font-size: 16px;
-    line-height: 24px;
-    font-weight: 500;
-    letter-spacing: -0.2px;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  letter-spacing: -0.2px;
 }
 .left-menu-nav {
-
-
 }
-
-
 
 .left-menu-navigation__btn {
-    height: 32px;
-    padding-left: 20px;
-    margin-bottom: 24px;
-
+  height: 32px;
+  padding-left: 20px;
+  margin-bottom: 24px;
 }
 .left-menu-navigation__btn--state--active {
-    color: #7E7E82;
-    background-image: url("../src/img/decorative/additional/highlight32px.svg");
-    background-repeat: no-repeat;
+  color: #7e7e82;
+  background-image: url('../src/img/decorative/additional/highlight32px.svg');
+  background-repeat: no-repeat;
 }
 
 .left-menu-footer {
-    margin-top: auto;
-    margin-left: 24px;
+  margin-top: auto;
+  margin-left: 24px;
 }
 .left-menu-contacts-icons {
-    display: flex;
-    justify-content: flex-start;
-    margin-bottom: 16px;
-
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 16px;
 }
-
 
 .left-menu-contacts-icon__img {
-    width: 40px;
-    height: 40px;
-    margin-right: 16px;
+  width: 40px;
+  height: 40px;
+  margin-right: 16px;
 }
 .left-menu-contacts-icon__img--type--call {
-    background-image: url("../src/img/decorative/icon/call.svg");
+  background-image: url('../src/img/decorative/icon/call.svg');
 }
 .left-menu-contacts-icon__img--type--chat {
-    background-image: url("../src/img/decorative/icon/chat.svg");
+  background-image: url('../src/img/decorative/icon/chat.svg');
 }
 .left-menu-contacts-icon__img--type--profile {
-    background-image: url("../src/img/decorative/icon/profile.svg");
+  background-image: url('../src/img/decorative/icon/profile.svg');
 }
 
-
 .left-menu-contact-email {
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: -0.2px;
-    font-weight: 500;
-    margin-bottom: 12px;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.2px;
+  font-weight: 500;
+  margin-bottom: 12px;
 }
 
 .left-menu-contact-phone {
-    font-size: 24px;
-    line-height: 32px;
-    letter-spacing: -0.6px;
-    font-weight: 700;
-    color: #1B1C21;
-    margin-bottom: 40px;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: -0.6px;
+  font-weight: 700;
+  color: #1b1c21;
+  margin-bottom: 40px;
 }
 
 .left-menu-choose-lang {
-    display: flex;
-    justify-content: flex-start;
-
+  display: flex;
+  justify-content: flex-start;
 }
 .left-menu-choose-lang__btn {
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: -0.2px;
-    margin-right: 7px;
-    font-weight: 500;
-    margin-bottom: 32px;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.2px;
+  margin-right: 7px;
+  font-weight: 500;
+  margin-bottom: 32px;
 }
 .left-menu-choose-lang__btn--state--active {
-    color: #7E7E82;;
+  color: #7e7e82;
 }
-

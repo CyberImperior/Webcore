@@ -1,246 +1,216 @@
 html {
-font-family: 'TT Lakes';
-font-size: 14px;
-line-height: 20px;
+  font-family: 'TT Lakes';
+  font-size: 14px;
+  line-height: 20px;
 
-letter-spacing: 0.2px;
+  letter-spacing: 0.2px;
 
-color: #1B1C21;
+  color: #1b1c21;
 }
 
 body {
-    background-color: #F8F8F8;
-    height: 100%;
+  background-color: #f8f8f8;
+  height: 100%;
 }
-
 
 .header-container {
-
-    display: flex;
-    justify-content: end;
-    height: 88px;
-    min-width: 311px;
-    align-items: center;
-    margin-bottom: 24px;
-    background-color: #FFFFFF;
+  display: flex;
+  justify-content: end;
+  height: 88px;
+  min-width: 311px;
+  align-items: center;
+  margin-bottom: 24px;
+  background-color: #ffffff;
 }
 
-
 .header-container .header-container__button {
-    min-width: 40px;
-    height: 40px;
-    
+  min-width: 40px;
+  height: 40px;
 }
 
 .header-container .header-container__button--burger-icon {
-    background-image: url("../src/img/decorative/icon/burger.svg");
-    margin-left: 16px;
-    margin-right: 16.73px;
-
+  background-image: url('../src/img/decorative/icon/burger.svg');
+  margin-left: 16px;
+  margin-right: 16.73px;
 }
 
-.header-container .header-container__pic  {
-    min-width: 2px;
-    height: 32px;
+.header-container .header-container__pic {
+  min-width: 2px;
+  height: 32px;
 }
 
 .header-container .header-container__logo {
-    min-width: 96.55px;
-    height: 50.81px;
+  min-width: 96.55px;
+  height: 50.81px;
 }
 
 .header-container .header-container__logo--divide-line1 {
-    display: none;
-    background-image: url("../src/img/decorative/additional/divider.svg");
-    margin-right: 20.73px;
-    margin-left: 3.27px;
+  display: none;
+  background-image: url('../src/img/decorative/additional/divider.svg');
+  margin-right: 20.73px;
+  margin-left: 3.27px;
 }
 
 .header-container .header-container__logo--cps-logo {
-    background-image: url("../src/img/decorative/icon/group.svg");
-    margin-right: auto;
+  background-image: url('../src/img/decorative/icon/group.svg');
+  margin-right: auto;
 }
 
 .header-container .header-container__button--call-icon {
-    display: none;
-    background-image: url("../src/img/decorative/icon/call.svg");
-    margin-right: 16px;
-    margin-left: 16px;
+  display: none;
+  background-image: url('../src/img/decorative/icon/call.svg');
+  margin-right: 16px;
+  margin-left: 16px;
 }
 
 .header-container .header-container__button--chat-icon {
-    display: none;
-    background-image: url("../src/img/decorative/icon/chat.svg");
-    margin-right: 16px;
-    margin-left: 16px;
+  display: none;
+  background-image: url('../src/img/decorative/icon/chat.svg');
+  margin-right: 16px;
+  margin-left: 16px;
 }
 
 .header-container .header-container__button--profile-icon {
-    display: none;
-    background-image: url("../src/img/decorative/icon/profile.svg");
-    margin-right: 12px;
-    margin-left: 16px;
+  display: none;
+  background-image: url('../src/img/decorative/icon/profile.svg');
+  margin-right: 12px;
+  margin-left: 16px;
 }
 
 .header-container .header-container__logo--divede-line2 {
-    background-image: url("../src/img/decorative/additional/divider.svg");
-    margin-right: 20px;
-    margin-left: 8px;
+  background-image: url('../src/img/decorative/additional/divider.svg');
+  margin-right: 20px;
+  margin-left: 8px;
 }
 .header-container .header-container__label {
-    display: none;
-    font-family: 'TT Lakes';
-    font-size: 16px;
-    line-height: 24px;
-    text-align: right;
-    letter-spacing: -0.2px;
-    color: #1B1C21;
+  display: none;
+  font-family: 'TT Lakes';
+  font-size: 16px;
+  line-height: 24px;
+  text-align: right;
+  letter-spacing: -0.2px;
+  color: #1b1c21;
 }
 
 .header-container .header-container__button--repair-icon {
-    background-image: url("../src/img/decorative/icon/repair.svg");
-
+  background-image: url('../src/img/decorative/icon/repair.svg');
 }
 
 .header-container .header-container__button--checkstatus-icon {
-    background-image: url("../src/img/decorative/icon/checkstatus.svg");
-    margin-right: 16px;
-    margin-left: 16px;
+  background-image: url('../src/img/decorative/icon/checkstatus.svg');
+  margin-right: 16px;
+  margin-left: 16px;
 }
 
-
-
 .nav-container {
-    margin-bottom: 24px;
+  margin-bottom: 24px;
 }
 
 .nav-container .nav-container__flex-container-for-heading {
-    display: flex;
-    justify-content: flex-start;
-    
-    
+  display: flex;
+  justify-content: flex-start;
 }
 .nav-container .nav-container__docorative-highlight {
-    width: 4px;
-    height: 40px;
-    background-image: url("../src/img/decorative/additional/highlight.svg");
+  width: 4px;
+  height: 40px;
+  background-image: url('../src/img/decorative/additional/highlight.svg');
 }
 
 .nav-container .nav-container__heading {
-    margin: 0;
-    padding: 0;
-    margin-left: 12px;
-    line-height: 40px;
-    font-size: 28px;
-    letter-spacing: -0.6px;
-    color: #1B1C21;
-    margin-bottom: 24px;
-
+  margin: 0;
+  padding: 0;
+  margin-left: 12px;
+  line-height: 40px;
+  font-size: 28px;
+  letter-spacing: -0.6px;
+  color: #1b1c21;
+  margin-bottom: 24px;
 }
 
 .nav-container .nav-container__nav {
-
 }
 
 .nav-container .nav-container__list {
-    display: flex;
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: -0.2px;
-    color: #7E7E82; 
-    margin-left: 16px;
-    white-space: nowrap;
-    overflow: scroll;
-
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.2px;
+  color: #7e7e82;
+  margin-left: 16px;
+  white-space: nowrap;
+  overflow: scroll;
 }
 
 .nav-container .nav-container__item {
-
-   
 }
 
-.nav-container .nav-container__button  {
-    padding-top: 8px;
-    padding-bottom: 8px;
-    padding-left: 16.54px;
-    padding-right: 16.54px;
-    margin-right: 3px;
-
+.nav-container .nav-container__button {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 16.54px;
+  padding-right: 16.54px;
+  margin-right: 3px;
 }
 
 .nav-container .nav-container__button:last-child {
-    margin-right: 0;
+  margin-right: 0;
 }
 
 .nav-container .nav-container__button--active {
-    background: #FFFFFF;
-    border: 2px solid #B8FFEC;
-    border-radius: 6px;
-
+  background: #ffffff;
+  border: 2px solid #b8ffec;
+  border-radius: 6px;
 }
 
-
-
 .main-container {
-
 }
 
 .main-container .main-conten-wrapper {
- 
 }
 .main-container .main-conten-wrapper--high-permisson {
-
 }
 
 .main-container .main-container__flex-container-for-text-and-button {
-
 }
 
 .main-container .main-container__main-text {
-    margin-top: 24px;
-    margin-left: 16px;
-    margin-right: 16px;
-    margin-bottom: 16px;
+  margin-top: 24px;
+  margin-left: 16px;
+  margin-right: 16px;
+  margin-bottom: 16px;
 }
 
 .main-container .main-container__flex-container-for-label-and-decorative {
-    display: flex;
-    justify-content: flex-start;
-    margin-left: 16px;
-    margin-bottom: 16px;
-
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 16px;
+  margin-bottom: 16px;
 }
 
 .main-container .main-container__downarrow-icon {
-    width: 24px;
-    height: 24px;
-    margin-right: 8px;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-image: url("../src/img/decorative/additional/downarrow.svg");
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../src/img/decorative/additional/downarrow.svg');
 }
 
 .main-container .main-container__next-text-button {
-    margin: 0;
-    padding: 0;
-    font-family: 'TT Lakes';
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: -0.2px; 
-    color: #1B1C21;
-    font-weight: 500;
-    align-self: center;
-    
+  margin: 0;
+  padding: 0;
+  font-family: 'TT Lakes';
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.2px;
+  color: #1b1c21;
+  font-weight: 500;
+  align-self: center;
 }
 
 .main-container .main-container__img-content {
-    width: 100%
+  width: 100%;
 }
-
-
-
-
-

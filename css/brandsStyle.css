@@ -1,0 +1,76 @@
+.brands-menu {
+  height: 234px;
+  background: #f2f2f2;
+}
+.brands-menu__header {
+  height: 80px;
+  border-top: 1px solid #d9fff5;
+  padding: 16px;
+  font-family: 'TT Lakes';
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.2px;
+  text-transform: uppercase;
+  color: #7e7e82;
+  background: linear-gradient(90deg, #f8f8f8 1.39%, #ffffff 100%);
+  z-index: 1;
+}
+.brands-menu__main {
+  display: flex;
+  justify-content: flex-start;
+}
+.brands-menu__item {
+  background: #ffffff;
+  height: 72px;
+  width: 240px;
+  border: 1px solid #eaeaea;
+  border-radius: 6px;
+  margin-top: 16px;
+  margin-left: 16px;
+  margin-bottom: 16px;
+}
+
+.brands-menu_icon {
+  position: relative;
+  left: 184px;
+  width: 40px;
+  height: 40px;
+  background: #ffffff url('../src/img/decorative/icon/brands/go.svg') no-repeat;
+}
+
+.brands-menu__item--type--lenovo {
+  background: #ffffff url('../src/img/decorative/icon/brands/lenovo.svg')
+    no-repeat left 16px top 20px;
+}
+.brands-menu__item--type--samsung {
+  background: #ffffff url('../src/img/decorative/icon/brands/samsung.svg')
+    no-repeat left 16px top 17px;
+}
+.brands-menu__item--type--apple {
+  background: #ffffff url('../src/img/decorative/icon/brands/apple.svg')
+    no-repeat left 16px top 12px;
+}
+.brands-menu__item--type--viewsonic {
+  background: #ffffff url('../src/img/decorative/icon/brands/vievSonic.svg')
+    no-repeat left 14px top 26px;
+}
+.brands-menu__item--type--bosch {
+  background: #ffffff url('../src/img/decorative/icon/brands/bosch.svg')
+    no-repeat left 16px top 21.7px;
+}
+.brands-menu__item--type--hp {
+  background: #ffffff url('../src/img/decorative/icon/brands/hp.svg') no-repeat
+    left 10px top 10px;
+}
+.brands-menu__item--type--acer {
+  background: #ffffff url('../src/img/decorative/icon/brands/acer.svg')
+    no-repeat left 16px top 24px;
+}
+.brands-menu__item--type--sony {
+  background: #ffffff url('../src/img/decorative/icon/brands/sony.svg')
+    no-repeat left 14px top 23px;
+}
+
+.swiper {
+  height: 125px;
+}

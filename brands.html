@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/brandsStyle.css">
+    <link rel="stylesheet" href="css/normilize.css">
+    <link rel="stylesheet" href="src/fonts/TTLakes/TTLakes-font.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+    <title>Brands</title>
+</head>
+
+<body>
+    <section>
+        <div class="brands-menu">
+            
+            <div class="brands-menu__header">РЕМОНТ ТЕХНИКИ РАЗЛИЧНЫХ БРЕНДОВ</div>
+            <div class="swiper mySwiper">
+            <ul class="brands-menu__main swiper-wrapper">
+                <li class="swiper-slide"><button type="button" class="brands-menu__item brands-menu__item--type--lenovo"><div class="brands-menu_icon"></div></button></li>
+                <li class="swiper-slide"><button type="button" class="brands-menu__item brands-menu__item--type--samsung"><div class="brands-menu_icon"></div></button></li>
+                <li class="swiper-slide"><button type="button" class="brands-menu__item brands-menu__item--type--apple"><div class="brands-menu_icon"></div></button></li>
+                <li class="swiper-slide"><button type="button" class="brands-menu__item brands-menu__item--type--viewsonic"><div class="brands-menu_icon"></div></button></li>
+                <li class="swiper-slide"><button type="button" class="brands-menu__item brands-menu__item--type--bosch"><div class="brands-menu_icon"></div></button></li>
+                <li class="swiper-slide"><button type="button" class="brands-menu__item brands-menu__item--type--hp"><div class="brands-menu_icon"></div></button></li>
+                <li class="swiper-slide"><button type="button" class="brands-menu__item brands-menu__item--type--acer"><div class="brands-menu_icon"></div></button></li>
+                <li class="swiper-slide"><button type="button" class="brands-menu__item brands-menu__item--type--sony"><div class="brands-menu_icon"></div></button></li>
+                <li class="swiper-slide"><button type="button" class="brands-menu__item brands-menu__item--type--lenovo"><div class="brands-menu_icon"></div></button></li>
+                <li class="swiper-slide"><button type="button" class="brands-menu__item brands-menu__item--type--samsung"><div class="brands-menu_icon"></div></button></li>
+                <li class="swiper-slide"><button type="button" class="brands-menu__item brands-menu__item--type--apple"><div class="brands-menu_icon"></div></button></li>
+                <li class="swiper-slide"><button type="button"><div></div></button></li>
+            </ul>
+            <div class="swiper-pagination"></div>
+        </div>
+            <div class="brand-menu__show">
+                <button></button>
+            </div>
+        </div>
+        </div>
+    </section>
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 2,
+      spaceBetween: 195,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+    });
+  </script>
+</body>
+
+</html>
